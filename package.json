@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node server.js",
     "postinstall": "./node_modules/bower/bin/bower install",
-    "test" : "./node_modules/.bin/karma start ./config/karma.config.js --single-run"
+    "test": "./node_modules/.bin/karma start ./config/karma.config.js --browsers Firefox --single-run"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
     "karma-jasmine": "^1.0.2"
   }
 }
