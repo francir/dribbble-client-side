@@ -22,5 +22,3 @@ npm install && bower install
 ```sh
 gulp server
 ```
-
-Veja demonstração no [Heroku](http://dribbble-client-side.herokuapp.com/)
