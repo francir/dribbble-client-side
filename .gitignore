@@ -1,0 +1,7 @@
+# App
+*.log
+node_modules/
+src/bower_components/
+
+# Build
+dist/
