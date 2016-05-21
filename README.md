@@ -1,6 +1,7 @@
 ## Dribbble Client Side
 
 ![Build Status](https://www.codeship.io/projects/a2737100-01be-0134-2e84-5a840fcbac76/status)
+![Build Status](https://travis-ci.org/francir/dribbble-client-side.svg?branch=master)
 
 <h5>Veja demonstração no Heroku:</h5>
 <p>http://dribbble-client-side.herokuapp.com/</p>

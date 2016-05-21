@@ -9,7 +9,6 @@
       dribbble.list($scope.page).then(function (data){
         console.log(data)
         $scope.list = data.data;
-        return 'something';
       })
 
       $scope.loadNexPage = function(){
