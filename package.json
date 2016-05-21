@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node server.js",
     "postinstall": "./node_modules/bower/bin/bower install",
-    "test" : ""
+    "test" : "./node_modules/.bin/karma start ./config/karma.config.js --single-run"
   },
   "repository": {
     "type": "git",
