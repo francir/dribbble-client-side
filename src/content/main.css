@@ -1,0 +1,150 @@
+body {
+  background-color: #f4f4f4;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #18191b;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.main-container-shots {
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.shot-list_post {
+  display: block;
+  width: 100%;
+  padding: 8px;
+
+  background-color: #fff;
+  border-radius: 4px;
+  display: block;
+  float: left;
+  margin: 10px 10px 20px;
+  transition: box-shadow .2s, transform .2s, opacity .2s;
+}
+
+.shot-list_post:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transform: translate(0, -4px);
+}
+
+.shot-list_post img {
+  width: 100%;
+}
+
+.shot-list_post h4 {
+  color: #18191b;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+=======
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.main-container-shots {
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.shot-list_post {
+  display: block;
+  width: 100%;
+  padding: 8px;
+
+  background-color: #fff;
+  border-radius: 4px;
+  display: block;
+  float: left;
+  margin: 10px 10px 20px;
+  transition: box-shadow .2s, transform .2s, opacity .2s;
+}
+
+.shot-list_post:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transform: translate(0, -4px);
+}
+
+.shot-list_post img {
+  width: 100%;
+}
+
+.shot-list_post h4 {
+  color: #18191b;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+>>>>>>> 847e19919ed6f87226f55dabe49758c07dafafbb
+.shot-post_title {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.shot-post_stats {
+  background: #f4f4f4;
+  opacity: 0.5;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 4px;
+}
+
+.shot-post_stats .stat {
+  padding: 5px;
+  color: #404246;
+  letter-spacing: .6px;
+}
+
+.shot-post-user {
+  float: left;
+  margin: 20px;
+}
+
+.shot-post-user img {
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+.shot-post-details {
+  float: left;
+  margin-top: 25px;
+}
+
+.shot-post-details h2 {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 480px) {
+
+  .shot-post-user {
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .shot-post-user img {
+    max-width: 70px;
+  }
+
+  .shot-post-details {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .shot-post-details h2 {
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,76 @@
+<main ng-controller="shotctrl">
+  <div class="main-container-shots">
+
+    <article class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-8">
+      <div class="shot-list_post">
+
+        <header class="shot-post_header">
+          <div class="shot-post-user">
+            <img ng-src="{{shot.data.user.avatar_url}}">
+          </div>
+          <div class="shot-post-details">
+            <h2>{{shot.data.title}}</h2>
+            <span class="muted">by</span>
+            <a href="https://dribbble.com/{{shot.data.user.username}}">
+              {{shot.data.user.name}}
+            </a>
+            |
+            {{shot.data.created_at}}
+          </div>
+        </header>
+        <div class="clearfix">
+          <img class="img-responsive" ng-src="{{shot.data.images.normal}}">
+
+          <div class="shot-post_stats">
+            <span class="stat">
+              <i class="glyphicon glyphicon-heart"></i>
+              {{shot.data.likes_count}}
+              Likes
+            </span>
+            <span class="stat">
+              <i class="glyphicon glyphicon-eye-open"></i>
+              {{shot.data.views_count}}
+              Views
+            </span>
+            <span class="stat">
+              <i class="glyphicon glyphicon-share-alt"></i>
+              {{shot.data.rebounds_count}}
+              Rebounds
+            </span>
+            <span class="stat">
+              <i class="glyphicon glyphicon-comment"></i>
+              {{shot.data.comments_count}}
+              Comments
+            </span>
+          </div>
+        </div>
+      </div>
+    </article>
+          <div class="shot-post_stats">
+            <span class="stat">
+              <i class="glyphicon glyphicon-heart"></i>
+              {{shot.data.likes_count}}
+              Likes
+            </span>
+            <span class="stat">
+              <i class="glyphicon glyphicon-eye-open"></i>
+              {{shot.data.views_count}}
+              Views
+            </span>
+            <span class="stat">
+              <i class="glyphicon glyphicon-share-alt"></i>
+              {{shot.data.rebounds_count}}
+              Rebounds
+            </span>
+            <span class="stat">
+              <i class="glyphicon glyphicon-comment"></i>
+              {{shot.data.comments_count}}
+              Comments
+            </span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</main>

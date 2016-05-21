@@ -1,0 +1,22 @@
+{
+  "name": "dribbble-client-side",
+  "description": "Implementar uma aplicação completamente client-side, que consulte a API do Dribbble e mostre os shots mais populares",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "angular-route": "^1.5.5"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.5"
+  }
+}

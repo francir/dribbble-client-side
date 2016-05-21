@@ -1,0 +1,36 @@
+{
+  "name": "dribbble-client-side",
+  "version": "1.0.0",
+  "description": "Implementar uma aplicação completamente client-side, que consulte a API do Dribbble e mostre os shots mais populares",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "./node_modules/bower/bin/bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://francir@bitbucket.org/francir/dribbble-client-side.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/francir/dribbble-client-side#readme",
+  "dependencies": {
+    "bower": "1.7.1",
+    "ejs": "2.4.1",
+    "express": "4.13.3",
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.5"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2"
+  }
+}

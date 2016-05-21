@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="dribbble-client-side">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dribbble Client Side</title>
+
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="content/main.css">
+    <!-- endinject -->
+</head>
+<body>
+
+
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<!-- endbower -->
+
+<!-- inject:js -->
+<script src="index.js"></script>
+<script src="modules/shot/controllers.js"></script>
+<script src="services/dribbble.js"></script>
+<!-- endinject -->
+
+<main class="container">
+  <h3>Dribbble</h3>
+  <div ng-view>
+  </div>
+</main>
+
+</body>
+</html>
