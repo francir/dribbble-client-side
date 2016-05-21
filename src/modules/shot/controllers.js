@@ -6,15 +6,11 @@
 
       $scope.page = 1;
 
-      var promise = dribbble.list($scope.page).then(function (data){
+      dribbble.list($scope.page).then(function (data){
         console.log(data)
         $scope.list = data.data;
         return 'something';
       })
-
-      promise.then(function(data) {
-        console.log(data === "something");
-      });
 
       $scope.loadNexPage = function(){
         $scope.page += 1;
