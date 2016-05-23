@@ -11,8 +11,7 @@ describe("dribbble", function() {
   it("Deve retornar uma lista shots",
     inject(function($controller) {
       dribbble.list(1).then(function (data){
-        expect(data.length).toBeGreaterThan(0);
+        expect(data.length).toBeGreaterThan(50);
       })
-
     }));
 });
